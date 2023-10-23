@@ -1,0 +1,26 @@
+.landing_banner_large {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #353535;
+  color: white;
+}
+.landing_banner_large img {
+  flex-grow: 1.6;
+  width: 60%;
+}
+.landing_banner_text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 25px;
+}
+.landing_banner_text h2 {
+  font-size: 3rem;
+}
+.landing_banner_text div {
+  font-size: 1.5rem;
+}
+body {
+  margin:var(--nav-height) 0 0 0;
+  padding: 0px;
+}

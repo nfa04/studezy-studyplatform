@@ -1,0 +1,106 @@
+body { margin: 0; padding-bottom: 3rem; }
+
+      #form { background: rgba(0, 0, 0, 0.15); padding: 0.25rem; position: fixed; bottom: 0; left: 20%; right: 0; display: flex; height: 3rem; box-sizing: border-box; backdrop-filter: blur(10px); }
+      #input { border: none; padding: 0 1rem; flex-grow: 1; border-radius: 2rem; margin: 0.25rem; }
+      #input:focus { outline: none; }
+      #form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
+
+      #messages { list-style-type: none; margin: 25px; padding: 0; margin-left: 22.5%;  margin-top: calc(var(--nav-height) + 20px);}
+      #messages div { padding: 0.5rem 1rem; border-radius: 10px;}
+      #messages .message:nth-child(odd) { background: #efefef; }
+
+      .message_indicator {
+        color: red;
+      }
+
+      #left_chatbar {
+        position: fixed;
+        left:0px;
+        top:var(--nav-height);
+        bottom:0px;
+        right:80%;
+        box-shadow: 5px 0px 5px 0px rgba(161,161,161,1);
+        padding: 20px;
+        margin-top: 0px;
+      }
+      
+      #chat_container div {
+        margin: 20px;
+        line-height: 50px;
+        vertical-align:middle;
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+        padding:10px;
+        cursor:pointer;
+      }
+
+
+      #chat_container img {
+        height: 50px;
+        border-radius: 10px;
+        float:left;
+        margin-right: 20px;
+      }
+
+      #top_chatbar {
+        position: fixed;
+        left: 20%;
+        top:var(--nav-height);
+        right:0;
+        padding:20px;
+        background-color:white;
+        box-shadow: 5px 0px 5px 0px rgba(161,161,161,1);
+        line-height:100%;
+        margin-top: 0px;
+      }
+
+      #active_chat_img {
+        vertical-align:middle;
+      }
+
+      #calling_options {
+        float:right;
+      }
+
+      .call_streamcontainer {
+        width:25%;
+        border: 1px solid black;
+        padding: 15px;
+        margin:15px;
+        box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.34);
+        border-radius: 10px;
+      }
+      
+      .call_streamcontainer video {
+        width:100%;
+      }
+
+      .call_container {
+        display:flex;
+        position: relative;
+      }
+
+      .call_toolbar {
+        text-align: center;
+        position: absolute;
+        bottom:20px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+
+      .call_streamcontainer img {
+        width: 25px;
+      }
+
+      .call_streamcontainer div {
+        line-height: 25px;
+        vertical-align:middle;
+      }
+
+      .studezy_item img {
+        float: left;
+        margin: 20px;
+      }

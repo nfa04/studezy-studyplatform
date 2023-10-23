@@ -1,0 +1,11 @@
+#tree_container div {
+  padding: 5px;
+  margin: 5px;
+  margin-left: 15px;
+}
+#tree_container div:nth-child(even) {
+  background-color: var(--theme-main-color);
+}
+#listBar {
+  float:right;
+}

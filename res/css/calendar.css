@@ -1,0 +1,28 @@
+table td {
+    vertical-align: top;
+}
+table .date_indicator {
+    background-color: var(--theme-main-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+table a {
+    text-decoration: none;
+    color: black;
+}
+.calendar_mode_selectors {
+    text-align: right;
+    line-height: 20px;
+}
+.calendar_mode_selectors a {
+    border: 3px solid var(--theme-main-color);
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+}
+.calendar_mode_selectors img {
+    height: 20px;
+    vertical-align: middle;
+}

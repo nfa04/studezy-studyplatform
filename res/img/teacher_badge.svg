@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" version="1.1" viewBox="0 96 960 960" xmlns="http://www.w3.org/2000/svg">
+ <path transform="matrix(-39.697 .22381 -.23305 -41.335 795.29 842.46)" d="m13.617 16.536-11.562-0.059208-5.7298-10.043 5.8324-9.9835 11.562 0.059209 5.7298 10.043z" fill="#aad400" stroke="#000" stroke-linejoin="bevel" stroke-width=".99979" style="mix-blend-mode:multiply;paint-order:stroke fill markers"/>
+ <path d="m479.63 729.35-183.16-100.4v-151.54l-94.105-51.146 277.26-151.54 278.53 151.54v200.16h-37.895v-178.06l-57.473 29.046v151.54zm0-194.48 198.95-108.61-198.95-106.71c-65.894 35.57-131.79 71.141-197.68 106.71zm0 151.54 145.26-80.191v-106.08l-145.26 77.666-145.26-78.929v107.34z" fill="#f9f9f9" stroke-width=".6315"/>
+ <text x="230.08873" y="866.24219" fill="#ffffff" font-family="sans-serif" font-size="133.33px" stroke-width="20" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="230.08873" y="866.24219" fill="#ffffff" font-family="sans-serif" font-size="133.33px" stroke-width="20" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Teacher</tspan></text>
+</svg>
