@@ -3,9 +3,6 @@
 
     require '../res/incl/classes/user.php';
 
-    ini_set('display_errors', 1);
-    error_reporting(E_ALL);
-
     // Strip everything but alphanumeric inputs for usernames
     // Sanitize email
     // Passwords allow all characters and hash it

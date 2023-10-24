@@ -28,14 +28,14 @@
           <img src="/res/img/group.svg" id="active_chat_img">
       </span>
       <span id="active_chat_name">No chat selected</span>
-      <span id="calling_options">
+      <!--<span id="calling_options">
         <img src="/res/img/call.svg" id="call_option">
         <img src="/res/img/video_call.svg" id="videocall_option">
-      </span>
+      </span>-->
     </div>
     <div id="messages"></div>
     <form id="form" action="">
-      <input id="input" autocomplete="off" /><a href="javascript:;" onclick="window.location.href = 'sendAttachment?i=' + chat;"><img src="/res/img/attachment.svg"></a><button>Send</button>
+      <input id="input" autocomplete="off" /><!--<a href="javascript:;" onclick="window.location.href = 'sendAttachment?i=' + chat;"><img src="/res/img/attachment.svg"></a>--><button>Send</button>
     </form>
     <script src="/res/lib/socket.io/socket.io.js"></script>
     <script src="/res/js/core.js"></script>
