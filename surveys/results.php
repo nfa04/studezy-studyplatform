@@ -71,7 +71,7 @@
                 <input type="button" onclick="loadData()" value="Go">
             </span>
         </div>-->
-        <h2>Results</h2>
+        <!--<h2>Results</h2>
         <div id="result_container">
             <?php
                 foreach($questions AS $question) {
@@ -99,7 +99,7 @@
                     </div>';
                 }
             ?>
-        </div>
+        </div>-->
         <script src="../res/js/core.js"></script>
         <script src="../res/js/graphs.js"></script>
         <script src="../res/js/surveyResults.js"></script>
