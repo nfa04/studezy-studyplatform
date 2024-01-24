@@ -53,6 +53,8 @@ To start right away, download and verify all docker images using the provided ch
 
 Continue by installing an instance of a MySQL Server, then configure it. This works different on different operating systems, so have a look at the official installation guide for your OS. I recommend you to go with a Linux distribution of your choice.
 
+Now create a new database and import the database structure which can be found here: https://github.com/nfa04/studezy-studyplatform/blob/main/db_scheme.sql
+
 All containers will later require you to provide them with the necessary credentials to your other components and some additional configuration. Please read the README.md file of the respective component for more details. For the configuration of the main component, which can be found in this repository, read the section below.
 
 ### Configuring your self-hosted instance's main component
@@ -75,7 +77,7 @@ You should then proceed to configure your PHP-sendmail component. Please follow 
 #### Setting up other components
 To set up the other required components, please read:
 - https://github.com/nfa04/docs-studezy-s3/blob/main/README.md
-- https://github.com/nfa04/docs-studezy-s3/blob/main/README.md
+- https://github.com/nfa04/studezy-chat/blob/main/README.md
 
 #### Running the container
 You can run this container like any other docker container. Make sure to bind port 80 to any port on your host machine you would like.
