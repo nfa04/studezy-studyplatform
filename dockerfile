@@ -8,9 +8,10 @@ WORKDIR /var/www/html/
 
 COPY src .
 
-RUN composer update && composer install && docker-php-ext-install curl pdo pdo_mysql && a2enmod rewrite
+RUN composer update && composer install && docker-php-ext-install curl pdo pdo_mysql && a2enmod rewrite && a2enmod ssl
 
 EXPOSE 80
+EXPOSE 443
 
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/
 
