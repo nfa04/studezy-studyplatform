@@ -51,11 +51,14 @@ The following components will also be required, but are not provided as docker i
 
 To start right away, download and verify all docker images using the provided checksums. 
 
+All containers will later require you to provide them with the necessary credentials to your other components and some additional configuration. Please read the README.md file of the respective component for more details. For the configuration of the main component, which can be found in this repository, read the section below.
+
+#### Setting up your databases
 Continue by installing an instance of a MySQL Server, then configure it. This works different on different operating systems, so have a look at the official installation guide for your OS. I recommend you to go with a Linux distribution of your choice.
 
 Now create a new database and import the database structure which can be found here: https://github.com/nfa04/studezy-studyplatform/blob/main/db_scheme.sql
 
-All containers will later require you to provide them with the necessary credentials to your other components and some additional configuration. Please read the README.md file of the respective component for more details. For the configuration of the main component, which can be found in this repository, read the section below.
+Set up Apache Cassandra, create a keyspace called "studezy" (without the quotation marks) and import the structure you will find here: https://github.com/nfa04/studezy-studyplatform/blob/main/cassandra_scheme.cql
 
 ### Configuring your self-hosted instance's main component
 The main component is shipped inside a docker container to make it easier for you to deploy your own instance. However you are still required to add some configuration to it which is necessary for it to connect to your other components.
@@ -74,13 +77,16 @@ sudo docker cp /path/to/your/file/on/host CONTAINER_ID:/var/www/.studezy-server-
 #### Configuring sendmail
 You should then proceed to configure your PHP-sendmail component. Please follow the official PHP-Manual for information on how to set this up.
 
+#### Setting up TLS
+Using TLS for modern webapps is highly advised and so you should definitely consider configuring your Apache instance inside the container to use it. Some functions will not even work without it. Please read the official Apache Documentation on how to set this up and supply the certificates into the container. 
+
 #### Setting up other components
 To set up the other required components, please read:
 - https://github.com/nfa04/docs-studezy-s3/blob/main/README.md
 - https://github.com/nfa04/studezy-chat/blob/main/README.md
 
 #### Running the container
-You can run this container like any other docker container. Make sure to bind port 80 to any port on your host machine you would like.
+You can run this container like any other docker container. Make sure to bind port 80 (and 443 if you enabled TLS) to any port on your host machine you would like.
 
 #### Checking your installation
 Go to your browser and open the host:port you deployed your docker container to. You should see the landing page.
