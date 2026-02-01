@@ -1,12 +1,13 @@
 # StudEzy Studying Platform
 
 ## About
-StudEzy is a free Platform for providing learning materials to students, interacting with them and much more. For more information about StudEzy visit: https://studezy.com/about
+StudEzy is a free Platform for providing learning materials to students, interacting with them and much more. For more information about StudEzy visit: https://studezy.noelaeby.me/about
 
 DISCLAIMER: AT THE MOMENT THIS SOFTWARE IS STILL IN EARLY DEVELOPMENT. DO NOT USE THIS SOFTWARE IN PRODUCTION ENVIRONMENTS! However you might start to experiment and/or contribute to this project.
 
 ## Use
-You can use StudEzy at any time using the publicly hosted instances at: https://studezy.com
+You can use StudEzy at any time using the publicly hosted instances at: https://studezy.noelaeby.me
+*Note:* the former domain studezy.com is no longer associated with this project and has been bought by another entity not associated to this project.
 
 However, you can also run and host your own version of StudEzy by following the installation guide below. This will provide you with greater independence over configuration and allow you to host your learning contents in a simple and comprehensive way by yourself.
 
